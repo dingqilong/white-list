@@ -1,7 +1,4 @@
-function changeVal(s){
-	s="hello";
+function myFunction(a,b){
+  return a*b;
 }
-
-d="world"
-changeVal(d);
-console.log("d="+d);
+document.getElementById("demo").innerHTML=myFunction(4,3);

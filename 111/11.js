@@ -1,18 +1,12 @@
-var cust1= {
-	name: "john",
-	id: 100,
-	orders: {o1:33},
-	$: 30,
-	"bal": 40,
-	50:60,
-};
-console.log(cust1.name);
-console.log(cust1.orders);
-console.log(cust1.$);
-console.log(cust1["bal"]);
-console.log(cust1[50]);
-
-cust1["city"]="NY";
-console.log(cust1["city"]);
-delete cust1[50];
-console.log(cust1[50]);
+function back(){
+  history.back();//后退按钮
+}
+function forward(){
+  history.forward();//前进按钮
+}
+function go(){
+  /* 跳转到浏览历史的任意页面
+   * 0表示当前页面-1表示后一个页面（back），1表示前一页（forward）
+   */
+  history.go();//
+}

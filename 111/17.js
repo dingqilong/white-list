@@ -1,13 +1,11 @@
-function f1(a,b){
-  var f2;
-  if(a>b)  {
-    f2=function(a) { return a+10;}
-  }  else {
-    f2=function(a) { return a*10;}
+Array.prototype.myUcase=function(){
+  for (i=0;i<this.length;i++){
+      this[i]=this[i].toUpperCase();
   }
-  return f2(10);
 }
-
-
-console.log(f1(1,2)); 
-console.log(f1(2,1));
+function myFunction(){
+  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+  fruits.myUcase();
+  var x=document.getElementById("demo");
+  x.innerHTML=fruits;
+}

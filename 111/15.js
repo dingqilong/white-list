@@ -1,19 +1,6 @@
-function add(a,b){
-  function mulby10(a){
-      return a*10;
-    }
-  return a+mulby10(b); //ok
+function myFunction() {
+  alert ("Hello World!")
 }
-
-function genmul(a){
-  function mulby(b){
-      return a*b;
-    }
-  return mulby; //ok
+function someOtherFunction() {
+  alert ("函数已执行!")
 }
-
-var r=genmul(4);
-console.log(r(3));
-
-console.log(add(2,3));
-//console.log(mulby10(2)); //error
