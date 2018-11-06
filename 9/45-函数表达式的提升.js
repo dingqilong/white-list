@@ -1,0 +1,14 @@
+
+//函数表达式
+//函数表达式不会被提升
+func();//报错
+var func = function(){
+    alert("sunshine");
+}
+
+//提升后的代码,只提升函数名,无实际意义
+// var func;
+// func();
+// func = function(){
+//     alert("sunshine");
+// };
