@@ -2,7 +2,7 @@
 
 var Publication = new Interface('Publication', ['getIsbn', 'setIsbn', 'getTitle', 
   'setTitle', 'getAuthor', 'setAuthor', 'display']);
-var Book = function(isbn, title, author) { ... } // implements Publication
+var Book = function(isbn, title, author) {  } // implements Publication
 
 /* Library interface. */
 // 创建一个图书馆接口

@@ -100,7 +100,6 @@ midStu.payFee();//缴费8000
 pupil.show();//sunshine 10
 pupil.payFee();//缴费5000
 
-5. call / apply （推荐）
 function Stu(name,age){
 	this.name=name;
 	this.age=age;

@@ -17,17 +17,7 @@ Function.prototype.method = function(name, fn) {
     // //todo
   }).method('getEvent', function(e) {
     // //todo
-  }).
-  /*
-    DOM
-      * addClass
-      * removeClass
-      * replaceClass
-      * hasClass
-      * getStyle
-      * setStyle
-  */
-  method('addClass', function(className) {
+  }).method('addClass', function(className) {
     // //todo
   }).method('removeClass', function(className) {
     // ...
@@ -39,17 +29,12 @@ Function.prototype.method = function(name, fn) {
     // ...
   }).method('setStyle', function(prop, val) {
     // ...
-  }).
-  /*
-    AJAX
-      * load. Fetches an HTML fragment from a URL and inserts it into an element.
-  */
-  method('load', function(uri, method) {
+  }).method('load', function(uri, method) {
     // ...
   });
   window.$ = function() {
     return new _$(arguments);
-  });
+  };
 })();
 
 Function.prototype.method = function(name, fn) {

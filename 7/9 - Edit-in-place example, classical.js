@@ -79,7 +79,6 @@ EditInPlaceField.prototype = {
     return this.fieldElement.value;
   }
 };
-To create a field, instantiate the class:
 var titleClassical = new EditInPlaceField('titleClassical', $('doc'), 'Title Here');
 var currentTitleText = titleClassical.getValue();
 

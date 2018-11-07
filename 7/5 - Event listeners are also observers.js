@@ -1,5 +1,5 @@
 // example using listeners
-var element = document.getElementById(‘a’);
+var element = document.getElementById('a');
 var fn1 = function(e) {
   // handle click
 };
@@ -7,13 +7,13 @@ var fn2 = function(e) {
   // do other stuff with click
 };
 // 使用事件监听器，所以click事件发生时fn1和fn2都会被调用
-addEvent(element, ‘click’, fn1);
-addEvent(element, ‘click’, fn2);
+addEvent(element, 'click', fn1);
+addEvent(element, 'click', fn2);
 
 
 
 // example using handlers
-var element = document.getElementById(‘b’);
+var element = document.getElementById('b');
 var fn1 = function(e) {
   // handle click
 };

@@ -1,11 +1,7 @@
 // ResultFormatter class, before we implement interface checking.
 
 var ResultFormatter = function(resultsObject) {
-  if(!(resultsObject instanceOf TestResult)) {
-    throw new Error('ResultsFormatter: constructor requires an instance '
-      + 'of TestResult as an argument.');
-  }
-  this.resultsObject = resultsObject;
+  
 };
 
 ResultFormatter.prototype.renderResults = function() {

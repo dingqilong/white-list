@@ -22,7 +22,7 @@ var CalendarYear = function(year, parent) { // implements CalendarItem
   for(var i = 0, len = 12; i < len; i++) {
     this.months[i] = new CalendarMonth(i, this.numDays[i], this.element);
   }
-);
+};
 CalendarYear.prototype = {
   display: function() {
     for(var i = 0, len = this.months.length; i < len; i++) {
@@ -45,7 +45,7 @@ var CalendarMonth = function(monthNum, numDays, parent) { // implements Calendar
   for(var i = 0, len = numDays; i < len; i++) {
     this.days[i] = new CalendarDay(i, this.element);
   }
-);
+};
 CalendarMonth.prototype = {
   display: function() {
     for(var i = 0, len = this.days.length; i < len; i++) {

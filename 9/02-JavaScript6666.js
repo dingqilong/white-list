@@ -12,7 +12,7 @@
     //要解除对象的占用（引用）的时候，给对象赋值为null
     var obj1;
     console.log(obj1); //undefined
-    var person={/*...*/};
+    var person={};
     person = null;
 
 

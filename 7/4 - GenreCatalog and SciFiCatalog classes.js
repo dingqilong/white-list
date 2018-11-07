@@ -8,7 +8,7 @@ GenreCatalog.prototype = {
   _bookMatchesCriteria: function(book) {
     return false; // Default implementation; this method will be overriden in
                   // the subclasses.
-  }
+  },
   handleFilingRequest: function(book) {
     // Check to see if the book belongs in this catagory.
     if(this._bookMatchesCriteria(book)) {

@@ -36,7 +36,3 @@ function PrototypeToYUIAdapter() {
 function YUIToPrototypeAdapter(el) {
   return $.apply(window, el);
 }
-
-$ = PrototypeToYUIAdapter;
-or vice-versa, for those who are migrating from YUI to Prototype:
-YAHOO.util.Dom.get = YUIToPrototypeAdapter;

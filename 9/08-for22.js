@@ -5,13 +5,6 @@
 // }
 
 // 循环命名，跳出多重循环
-outer:
-for(){
-    inner:
-    for(){
-        break outer;
-    }
-}
 
 //需求：打印宽9，长9的正方形
 for(var j=1;j<=9;j++){
