@@ -104,7 +104,7 @@ var CalendarMonth = function(monthNum, numDays, parent) { // implements Calendar
   	// 原来用CalendarDay类构造函数创建该，替换为calendarDay对象
     this.days[i] = calendarDay;
   }
-);
+};
 CalendarMonth.prototype = {
   display: function() {
     for(var i = 0, len = this.days.length; i < len; i++) {

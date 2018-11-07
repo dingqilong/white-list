@@ -25,9 +25,7 @@ GenreCatalog.prototype = {
     }
   },
   setSuccessor: function(successor) {
-    if(Interface.ensureImplements(successor, Catalog) {
-      this.successor = successor;
-    }
+    
   }
 };
 
