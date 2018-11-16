@@ -1,0 +1,33 @@
+
+			/* Title: Hoisting
+			 * Description: var statements anywhere in a function act as if the variables were declared at the top of the function
+			 */
+
+			// antipattern
+			wontchange = "global"; // global variable
+			willchange = "global"; // global variable
+			function func_bad() {
+				alert(wontchange); // "global"
+				alert(willchange); // "undefined" due to the var below
+				var willchange = "local"; // This rescopes willchange inside this function
+				alert(willchange); // "local"
+			}
+			func_bad();
+
+			// the preceding code snippet will behave as if it were implemented like so:
+			wontchange = "global"; // global variable
+			willchange = "global"; // global variable
+			function func() {
+				// This still rescopes, but it is a lot more explicit
+				var willchange; // same as -> var willchange = undefined;
+				alert(wontchange); // "global"
+				alert(willchange); // "undefined"
+				willchange = "local";
+				alert(willchange); // "local"
+			}
+			func();
+
+
+			// References
+			// http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/
+		

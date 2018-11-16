@@ -1,0 +1,28 @@
+
+var date=new Date();
+var day=date.getDate();
+
+switch(name){
+	case "parvez":
+	document.writeln("Today is Parvez day");
+	break;
+	case "urmi":
+	document.writeln("Today is Urmi Day");
+	break;
+	case 300:
+	document.writeln("Today is Wednesday");
+	break;
+	case 4:
+	document.writeln("Today is Thursday");
+	break;
+	case 5:
+	document.writeln("Today is Friday");
+	break;
+	case 6:
+	document.writeln("Today is Saturday");
+	break;
+	default:
+	document.writeln("Today is Sunday");
+		
+	}
+//

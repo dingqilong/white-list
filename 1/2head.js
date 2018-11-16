@@ -1,0 +1,3 @@
+
+        var site = {}; // site settings
+    

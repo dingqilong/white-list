@@ -1,0 +1,1 @@
+moreSimpleTests = true

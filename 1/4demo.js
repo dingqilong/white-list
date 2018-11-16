@@ -1,0 +1,1 @@
+ript src="https://code.highcharts.com/maps/highmaps.js">

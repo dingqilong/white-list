@@ -1,0 +1,2 @@
+
+	bootstrapFrom( ".iframe-page", "iframe" );

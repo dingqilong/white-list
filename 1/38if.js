@@ -1,0 +1,21 @@
+
+var w=prompt("Enter Written Mark: ","");
+var e=prompt("Enter Evidence Mark: ","");
+var a="A-Grade";
+var b="B-Grade";
+var c="C-Grade";
+var f="F-Grade";
+function findOutPassFail(written, evidence){
+marks=80;
+	if(marks>=70 && marks<75){			
+		alert("Passed: "+c);
+	}else if(marks>=75){
+		alert("Passed: "+b);
+	}else if(marks>=80){	
+		alert("Passed: "+a);
+	}else{
+				alert("Failed: "+f);
+			}
+	
+	}
+

@@ -1,0 +1,2 @@
+
+	bootstrapFrom( ".main-page" );

@@ -1,0 +1,13 @@
+// Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+
+'use strict';
+
+const pi = require('./pi');
+
+module.exports.loadTest = function() {
+  return pi();
+};
+
+module.exports.empty = function() {
+  // Do nothing.
+};

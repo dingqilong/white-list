@@ -1,0 +1,2 @@
+
+window.location = "localInfo.html";

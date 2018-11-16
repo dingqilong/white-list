@@ -1,0 +1,7 @@
+function f(x) {
+    return g(x);
+    function g(x) {
+        return x;
+    }
+}
+ata:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjpudWxsLCJzb3VyY2VzIjpbInN0ZGluIl0sInNvdXJjZXNDb250ZW50IjpbImNsYXNzIEZvbyB7IGNvbnN0cnVjdG9yKCl7Y29uc29sZS5sb2coMSsyKTt9IH0gbmV3IEZvbygpO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLElBQU0sR0FBRyxHQUFDLEFBQUUsWUFBVyxFQUFFLENBQUMsT0FBTyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFBLEFBQUUsQ0FBQyxJQUFJLEdBQUcsRUFBRSxDQUFDOyJ9

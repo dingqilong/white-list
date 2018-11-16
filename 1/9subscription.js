@@ -1,0 +1,2 @@
+
+Stripe.setPublishableKey('{{stripe.key}}');
